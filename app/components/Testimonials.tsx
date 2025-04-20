@@ -9,7 +9,7 @@ const testimonials = [
       },
       {
         name: "Liam T.",
-        text: `Booked my team breakfast here - fast service, great food, and even better espresso.`,
+        text: "Booked my team breakfast here - fast service, great food, and even better espresso.",
         star: "⭐⭐⭐⭐",
       },
       {
@@ -27,7 +27,7 @@ export default function Testimonials() {
                 {testimonials.map((t, i) => (
                     <div key={i}
                     className="bg-white border rounded-lg shadow-sm p-6">
-                        <p className="text-gray-700 italic">"{t.text}"</p>
+                        <p className="text-gray-700 italic">&quot;{t.text}&quot;</p>
                         <p className="mt-4 font-semibold text-[#4B2E2B]">{t.name}</p>
                         <p className="text-sm text-gray-500">Customer</p>
                         <div className="flex justify-center mt-4">
