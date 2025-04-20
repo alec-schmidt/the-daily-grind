@@ -46,7 +46,7 @@ The Daily Grind Café is a mock project built to showcase my ability to design a
 
 ## 🚀 Live Demo
 
-👉 [Visit Live Site](https://your-vercel-deployment-link.com)
+👉 [Visit Live Site](https://the-daily-grind-phi.vercel.app)
 
 ---
 
